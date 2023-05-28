@@ -2,6 +2,7 @@ package com.scaler.taskmanager.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
 @Entity(name="tasks") // name here is the name of the table. Name of the table should ideally be plural
 // entity class should be singular - TaskEntity as it represents a single task
 @Getter
+@Setter
 @Table(indexes = @Index(columnList = "title"))
 public class TaskEntity extends BaseEntity{
     @Column(name="title",nullable = false,length = 150)

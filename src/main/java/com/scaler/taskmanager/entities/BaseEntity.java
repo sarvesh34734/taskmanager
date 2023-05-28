@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @MappedSuperclass // every entity extends from it. It should be abstract as it doesn't have its own table
 // all the columns that are required by all the tables are defined here
@@ -16,6 +16,6 @@ public abstract class BaseEntity {
     private Integer id;
 
     @CreatedDate
-    @Column(name="created_at",nullable = false)
-    private Date createdAt;
+    @Column(name="created_at",columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
+    private LocalDateTime createdAt;
 }

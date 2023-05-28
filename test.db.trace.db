@@ -110,3 +110,73 @@ Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
 	... 50 more
+2023-05-28 13:09:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 13:09:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 13:11:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 13:11:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 13:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 13:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:00:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:00:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:01:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:01:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:05:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:05:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:31:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists notes \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists notes 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
+2023-05-28 15:31:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    alter table if exists tasks \000a       alter column created_at set data type TIMESTAMP [*]DEFAULT CURRENT_TIMESTAMP"; SQL statement:
+
+    alter table if exists tasks 
+       alter column created_at set data type TIMESTAMP DEFAULT CURRENT_TIMESTAMP [42000-214]
