@@ -1,0 +1,15 @@
+server:
+  port: 7766
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./test.db
+  jpa:
+    hibernate:
+      ddl-auto: update # create means it will create tables when project is started. If tables already exist, we use none
+    show-sql: true
+    properties: # these properties will print all the sql commands ORM execute
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
